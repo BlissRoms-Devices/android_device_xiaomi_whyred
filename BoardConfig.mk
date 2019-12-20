@@ -269,6 +269,7 @@ WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WIFI_DRIVER_OPERSTATE_PATH := "/sys/class/net/wlan0/operstate"
 #WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
+TARGET_INCLUDE_WIFI_EXT := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Enable dex pre-opt to speed up initial boot
