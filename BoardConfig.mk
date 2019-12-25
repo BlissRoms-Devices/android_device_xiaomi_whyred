@@ -239,15 +239,5 @@ WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 TARGET_INCLUDE_WIFI_EXT := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
-# Enable dex pre-opt to speed up initial boot
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
-      WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
-    endif
-  endif
-endif
-
 # inherit from the proprietary version
 -include vendor/xiaomi/whyred/BoardConfigVendor.mk
