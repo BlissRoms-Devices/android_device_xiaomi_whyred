@@ -1,0 +1,39 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "BlissRoms-Devices/android_device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "revision":    "q"
+  },
+  {
+    "remote":      "github",
+    "repository":  "theradcolor/android_kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/whyred",
+    "revision":    "kernel-eas-newcam"
+  },
+  {
+    "remote":      "github",
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred",
+    "revision":    "ten"
+  },
+  {
+    "remote":      "github",
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_sdm660-common",
+    "target_path": "vendor/xiaomi/sdm660-common",
+    "revision":    "lineage-17.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_Miuicamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "revision":    "lineage-17.0"
+  },
+  {
+    "remote":      "gitlab",
+    "repository":  "vendor_gapps",
+    "target_path": "vendor/gapps",
+    "revision":    "q"
+  }
+]
+
