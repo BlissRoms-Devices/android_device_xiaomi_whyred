@@ -31,7 +31,7 @@
   },
   {
     "remote":      "gitlab",
-    "repository":  "vendor_gapps",
+    "repository":  "BlissRoms/vendor_gapps",
     "target_path": "vendor/gapps",
     "revision":    "q"
   }
