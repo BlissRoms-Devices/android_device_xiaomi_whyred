@@ -7,9 +7,8 @@
   },
   {
     "remote":      "github",
-    "repository":  "theradcolor/android_kernel_xiaomi_whyred",
-    "target_path": "kernel/xiaomi/whyred",
-    "revision":    "kernel-eas-newcam"
+    "repository":  "xiaomi-sdm660/android_kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660"
   },
   {
     "remote":      "github",
