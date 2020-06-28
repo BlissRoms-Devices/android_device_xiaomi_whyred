@@ -47,8 +47,8 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
 
 # Kernel
-TARGET_KERNEL_CONFIG := whyred-perf_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
+TARGET_KERNEL_CONFIG := whyred_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
