@@ -84,3 +84,7 @@ PRODUCT_PACKAGES += \
 # Watermark
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/MIUI_DualCamera_watermark.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png
+
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
