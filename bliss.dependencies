@@ -3,24 +3,24 @@
     "remote":      "github",
     "repository":  "xiaomeme-whyred/android_kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660",
-    "revision":      "10.x"
+    "revision":    "10.x"
   },
   {
-    "remote":      "gitlab",
-    "repository":  "the-muppets/proprietary_vendor_xiaomi",
+    "remote":      "github",
+    "repository":  "vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "revision":      "lineage-17.1"
+    "revision":    "q"
   },
   {
     "remote":      "github",
     "repository":  "android_device_xiaomi_sdm660-common",
     "target_path": "device/xiaomi/sdm660-common",
-    "revision":      "q-whyred"
+    "revision":    "q-whyred"
   },
   {
     "remote":      "github",
     "repository":  "xiaomeme-whyred/vendor_MiuiCamera",
     "target_path": "vendor/MiuiCamera",
-    "revision":      "10.x"
+    "revision":    "10.x"
   }
 ]
